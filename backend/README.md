@@ -1,3 +1,7 @@
+## static file
+
+[static file](./web), `npm run build` from [client](../client/README.md). 
+
 ## Backend API
 
 - Get a list of containers
