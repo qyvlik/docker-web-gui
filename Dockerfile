@@ -18,7 +18,7 @@ RUN cd /src/client && \
     npm install --registry=https://registry.npm.taobao.org && \
     npm run build
 
-RUN cp -rf /src/client/build/* /src/backend/web/*
+RUN cp -rf /src/client/build/* /src/backend/web/
 
 ADD ./app.js /src/app.js
 
